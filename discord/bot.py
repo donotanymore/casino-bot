@@ -18,4 +18,7 @@ async def main():
     await client.start(TOKEN)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("Bot stopped by user.")
