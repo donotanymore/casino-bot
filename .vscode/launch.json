@@ -6,11 +6,11 @@
     "configurations": [
 
         {
-            "name": "PowerShell: Launch Current File",
-            "type": "PowerShell",
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
             "request": "launch",
-            "script": "./bot.ps1",
-            "args": []
+            "program": ".\\discord\\bot.py",
+            "console": "integratedTerminal"
         }
     ]
 }
