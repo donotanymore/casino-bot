@@ -9,8 +9,8 @@ do {
 } until ($tunnelRunning)
 write-host "VS Code tunnel is running"
 # Activate the virtual environment
-venv\Scripts\Activate.ps1
+Documents\GitHub\casino-bot\venv\Scripts\Activate.ps1
 # Install the required packages
-pip install -r requirements.txt
+pip install -r Documents\GitHub\casino-bot\requirements.txt
 # Run the bot script
-python discord/bot.py
+python Documents\GitHub\casino-bot\discord\bot.py
